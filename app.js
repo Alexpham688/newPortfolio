@@ -6,7 +6,7 @@ $(document.body).ready(function(){
   }
 
   //changing texts on about section
-  var texts =['i am alex pham','front end web developer', 'i love to code','i love to learn','i also love cars and football'];
+  var texts =['i am alex pham','front end web developer', 'i love to code','i love to learn','i love fast cars', 'and football'];
   var count = 0;
   function changeText() {
     $('.intro-text').text(texts[count]);
